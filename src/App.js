@@ -9,7 +9,7 @@ import { AuthProvider } from "./context/AuthContext";
 
 function App() {
   return (
-    <div className="bg-slate-300 text-black h-screen flex text-white">
+    <div className="bg-emerald-500 text-black h-screen flex text-white">
       <AuthProvider>
         <Routes>
           <Route path="/login" element={<Login />} />
